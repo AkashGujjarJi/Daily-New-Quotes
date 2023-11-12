@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Daily Inspiration with Persistent Alarm</title>
+</head>
+<body>
+    <div class="alarm-container">
+        <h2>Alarm Setting</h2>
+        <label for="alarm-time">Set Alarm Time:</label>
+        <input type="time" id="alarm-time">
+        <button onclick="setAlarm()">Set Alarm</button>
+    </div>
+
+    <div class="quote-container">
+        <h1>Daily Inspiration</h1>
+        <p id="quote-text"></p>
+        <button onclick="getNewQuote()">Get New Quote</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
